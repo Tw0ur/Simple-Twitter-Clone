@@ -1,70 +1,12 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Снимок экрана (1424)](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/71205846-40d8-45ef-a6cb-e1b15e9ab8b9)
+![Снимок экрана (1425)](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/e2dd69c2-f56f-4efa-a460-6a746e72b004)
+![Снимок экрана (1414)](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/01c6b437-a4d7-4415-ae85-28b7403cb5e3)
+![Снимок экрана (1415)](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/ae1318cf-0b6b-4c35-bac9-cba92a7021a5)
+![Снимок экрана (1416)](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/2bf7bf08-2cad-4d29-9f4e-36ea9c56de76)
+![Снимок экрана (1417)](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/b922a0dc-3519-49ab-815f-08dee21971d8)
+![Снимок экрана 2024-01-26 215146](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/b481d119-136b-4c15-bf15-cc43627eb84a)
+![Снимок экрана (1426)](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/8b80cc3c-feb6-427e-8172-c58c422364dc)
+![Снимок экрана 2024-01-26 215147](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/de27c2ac-7989-4160-976e-57abf36ed5aa)
+![Снимок экрана 2024-01-26 215223](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/d0d67ecd-c47a-473b-b3dc-d441a9aa94f3)
+![Снимок экрана 2024-01-26 215252](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/1a124208-5291-429e-af64-6f686fe58b24)
+![Снимок экрана 2024-01-26 215259](https://github.com/Tw0ur/Simple-Twitter-Clone/assets/115350281/e7521a26-956a-48b9-971d-a3afaf3beec2)
