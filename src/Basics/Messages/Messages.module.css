@@ -1,0 +1,240 @@
+.itsYou {
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 70%;
+    padding: 12px 18px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.itsMe {
+    display: block;
+    width: auto;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+
+    border-radius: 20px;
+    position: relative;
+
+
+}
+
+.itsAnswer {
+    display: block;
+
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+    padding-inline: 16px;
+
+}
+
+.palka {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.palka::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 2px;
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.textArea {
+    min-height: 17px;
+    max-height: 400px;
+}
+
+.anwser {
+    width: 100%;
+}
+
+.Me {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-block: 2.5px;
+}
+
+.flexMe {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    justify-content: start;
+    border-radius: 20px;
+    max-width: 70%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 12px 18px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.divYou {
+    display: flex;
+
+    position: relative;
+    justify-content: start;
+
+
+    padding-block: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.divMe {
+    display: flex;
+    justify-content: end;
+
+    position: relative;
+    padding-block: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.divAnswer {
+    display: flex;
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    justify-content: end;
+    width: 100%;
+    position: relative;
+    padding-block: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.currentText {
+    padding-left: 3rem;
+    padding-right: 6rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.overflow {
+    height: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+
+}
+
+.overflow::-webkit-scrollbar {
+    width: 1px; /* ширина scrollbar */
+}
+
+.overflow::-webkit-scrollbar-track {
+    /* цвет дорожки */
+}
+
+.overflow::-webkit-scrollbar-thumb {
+
+}
+
+.flipContextMenu {
+    position: fixed;
+    z-index: 10;
+    background: #000;
+    border-radius: 10px;
+    min-height: 4rem;
+    min-width: 5rem;
+    color: white;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 12px 72px -17px rgba(255, 255, 255, 0.7);
+    -moz-box-shadow: 1px 12px 72px -17px rgba(255, 255, 255, 0.7);
+    box-shadow: 1px 12px 72px -17px rgba(255, 255, 255, 0.7);
+}
+
+.contextHover {
+    padding: 5px 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    transition: backgroung-color 0.1s;
+}
+
+.contextHover:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.composeBtn {
+    background-color: white;
+}
+
+.composeBtnDisabled {
+    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.composeInput {
+    padding: 0.75rem;
+    width: 100%;
+    color: white;
+    background: #000;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: inherit;
+
+    &:focus {
+
+        outline: none !important;
+    }
+}
+
+.composeSvgDisabled {
+    color: rgb(113, 118, 123);
+}
+
+.composeSvg {
+    color: rgb(19, 155, 240);
+}
+
+.progressive {
+    position: absolute;
+    background-color: rgb(19, 155, 240);
+    border-radius: 8px;
+    width: 100px;
+
+    height: 100%;
+    animation: progressiveBar 3s infinite forwards;
+
+}
+
+.composeCurrentUser {
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: calc(3px);
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(19, 155, 240, 0.1);
+    }
+}
+
+@keyframes progressiveBar {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(600px);
+    }
+}
